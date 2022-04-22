@@ -1,0 +1,20 @@
+{
+  "name": "PubSubAPIServer",
+  "version": "1.0.0",
+  "description": "REST API PubSub Server",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrei Besleaga",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.14",
+    "@feathersjs/feathers": "^4.5.12",
+    "@feathersjs/socketio": "^4.5.14",
+    "redis": "^4.0.6"
+  }
+}
